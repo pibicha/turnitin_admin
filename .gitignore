@@ -1,0 +1,67 @@
+# Django
+*.log
+*.pyc
+__pycache__/
+*.sqlite3
+*.pid
+*.egg-info/
+*.egg
+*.manifest
+*.spec
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Media and static files
+media/
+staticfiles/
+
+# Environment
+env/
+venv/
+.env
+.venv/
+*.env
+.env.local
+.venv.local
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Database migrations (except the __init__.py files)
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# macOS
+.DS_Store
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Documentation
+docs/_build/
+
+# Backup files
+*~
+*.bak
+
+# Local development
+local_settings.py
+.env.local
+
+# Build and package directories
+build/
+dist/
+*.tar.gz
+*.whl
+
+# Other
+*.pdf
+*.docx
+
